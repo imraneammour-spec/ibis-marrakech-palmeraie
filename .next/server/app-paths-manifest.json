@@ -1,7 +1,0 @@
-{
-  "/hotel/page": "app/hotel/page.js",
-  "/gallery/page": "app/gallery/page.js",
-  "/location/page": "app/location/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/page": "app/page.js"
-}
