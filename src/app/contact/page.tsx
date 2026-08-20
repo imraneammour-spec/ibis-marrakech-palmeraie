@@ -1,1 +1,10 @@
-import { SiteHeader } from "@/components/SiteHeader"; import { SiteFooter } from "@/components/SiteFooter"; import { location } from "@/data/location"; import { hotel } from "@/data/hotel"; export default function ContactPage(){return <><div className="pageHero"><SiteHeader/><div><p className="eyebrow">Contact</p><h1>We look forward to <em>welcoming you.</em></h1></div></div><main className="section contact"><div><p className="eyebrow">Find the hotel</p><p className="lead">{location.address}</p><p><a href={`tel:${hotel.phone.replaceAll(" ","")}`}>{hotel.phone}</a><br/><a href={`mailto:${hotel.email}`}>{hotel.email}</a></p><a className="textLink" href={location.googleMapsUrl} target="_blank">Google Maps ↗</a></div><form><label>Name<input required /></label><label>Email<input type="email" required /></label><label>Message<textarea rows={5} required /></label><button className="button" type="button">Contact integration pending</button><p className="muted">This form does not send messages until a hotel-approved contact destination is configured.</p></form></main><SiteFooter/></>}
+import { Phone, Mail } from "lucide-react";
+import { ContactForm } from "@/components/ContactForm";
+import { PageHero } from "@/components/PageHero";
+import { SiteFooter } from "@/components/SiteFooter";
+import { hotel } from "@/data/hotel";
+import { pageMetadata } from "@/lib/metadata";
+
+export const metadata = pageMetadata("Contact", "Contact ibis Marrakech Palmeraie directly by phone, email or directions.", "/contact");
+
+export default function ContactPage() { return <><PageHero eyebrow="Contact" title={<>We look forward to <em>welcoming you.</em></>} /><main className="section contactPage"><section><p className="eyebrow">Get in touch</p><h2>Directly connected.</h2><p className="lead">For stays, room questions and arrival support, contact the hotel directly.</p><div className="contactActions"><a href={`tel:${hotel.phone.replaceAll(" ", "")}`}><Phone size={20}/><span><small>Call the hotel</small>{hotel.phone}</span></a><a href={`mailto:${hotel.email}`}><Mail size={20}/><span><small>Email the hotel</small>{hotel.email}</span></a></div></section><section className="contactFormColumn" aria-label="Contact form"><ContactForm /></section></main><SiteFooter /></>; }

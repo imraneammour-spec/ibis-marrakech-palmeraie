@@ -9,4 +9,18 @@
   --page-padding: clamp(1.25rem, 4vw, 5rem);
   --content-width: 82rem;
   --display: var(--font-serif), Georgia, serif;
+  --type-display: clamp(3rem, 5vw, 4.75rem);
+  --type-h1: clamp(2.65rem, 4.1vw, 3.9rem);
+  --type-h2: clamp(2.15rem, 3.2vw, 3rem);
+  --type-h3: clamp(1.45rem, 1.7vw, 1.85rem);
+  --type-body-large: clamp(1.0625rem, 1.2vw, 1.1875rem);
+  --type-body: clamp(1rem, 1vw, 1.0625rem);
+  --type-small: .875rem;
+  --type-label: .6875rem;
+  --type-button: .8125rem;
+  --leading-display: .94;
+  --leading-heading: 1.08;
+  --leading-body: 1.68;
+  --tracking-display: -.045em;
+  --tracking-label: .12em;
 }

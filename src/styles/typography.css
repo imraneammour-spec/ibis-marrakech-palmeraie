@@ -1,0 +1,56 @@
+/* Shared hierarchy: use these classes where a component needs an explicit type role. */
+.type-display { font: 400 var(--type-display)/var(--leading-display) var(--display); letter-spacing: var(--tracking-display); }
+.type-h2 { font: 400 var(--type-h2)/var(--leading-heading) var(--display); letter-spacing: var(--tracking-display); }
+.type-h3 { font: 400 var(--type-h3)/var(--leading-heading) var(--display); letter-spacing: -.035em; }
+.type-body-large { font-size: var(--type-body-large); line-height: var(--leading-body); }
+.type-body { font-size: var(--type-body); line-height: var(--leading-body); }
+.type-small { font-size: var(--type-small); line-height: 1.55; }
+.type-label { font-size: var(--type-label); font-weight: 700; letter-spacing: var(--tracking-label); line-height: 1.25; text-transform: uppercase; }
+.type-button { font-size: var(--type-button); font-weight: 700; letter-spacing: .1em; line-height: 1; text-transform: uppercase; }
+
+body { font-size: var(--type-body); line-height: var(--leading-body); }
+.hero h1 { font: 400 var(--type-display)/var(--leading-display) var(--display); letter-spacing: var(--tracking-display); max-width: 15ch; }
+.pageHero h1 { font: 400 var(--type-h1)/var(--leading-display) var(--display); letter-spacing: var(--tracking-display); max-width: 24ch; }
+.section h2, .experience h2, .reserve h2, .footer h2, .contactPage h2, .hotelIntro h2, .hotelFacts h2, .hotelContext h2, .hotelExperience h2, .locationLead h2, .locationInfo h2, .roomInformation h2, .relatedRooms h2, .roomsExperience h2 { font: 400 var(--type-h2)/var(--leading-heading) var(--display); letter-spacing: var(--tracking-display); max-width: 22ch; }
+.roomCard h3, .roomEditorialCopy h3, .relatedRoom strong { font: 400 var(--type-h3)/var(--leading-heading) var(--display); letter-spacing: -.035em; }
+.experienceVisual p, .experiencePlaceholder p, .mapCard strong { font: 400 var(--type-h2)/var(--leading-display) var(--display); letter-spacing: var(--tracking-display); }
+.lead { font: 400 var(--type-body-large)/var(--leading-body) var(--font-sans), Arial, sans-serif; max-width: 42rem; }
+.heroCopy > p:not(.eyebrow), .prose p:not(.lead), .hotelIntro p, .hotelContext p, .locationLead .lead, .locationInfo p { font-size: var(--type-body); line-height: var(--leading-body); }
+.eyebrow, .contactActions small, .roomInformation dt, .relatedRoom span, .relatedRoom small { font-size: var(--type-label); font-weight: 700; letter-spacing: var(--tracking-label); line-height: 1.25; }
+.button, .textLink, .header nav, .galleryFilters button { font-size: var(--type-button); }
+.pageHero h1, .section h2, .experience h2, .reserve h2, .footer h2, .contactPage h2, .hotelIntro h2, .hotelFacts h2, .hotelContext h2, .hotelExperience h2, .locationLead h2, .locationInfo h2, .roomInformation h2, .relatedRooms h2, .roomsExperience h2, .roomCard h3, .roomEditorialCopy h3, .relatedRoom strong { margin-top: .5rem; margin-bottom: 1rem; }
+
+.section { padding-block: clamp(4.5rem, 6vw, 6.5rem); }
+.sectionTitle { margin-bottom: 2.25rem; }
+.pageHero { min-height: 25.5rem; padding-block: 3rem; }
+.hotelFacts, .locationInfo { padding-block: clamp(4rem, 5vw, 5.5rem); }
+.roomEditorialList { gap: clamp(3.5rem, 5vw, 5rem); }
+.reserve { padding-block: clamp(5rem, 6vw, 6.25rem); }
+.hotelContext > div:first-child { max-width: 44rem; }
+.hotelContext h2 { max-width: 25ch; }
+
+.contactPage { grid-template-columns: minmax(0, 1fr) minmax(19rem, .9fr); align-items: start; }
+.contactAddress { padding: clamp(1.5rem, 3vw, 2.75rem); border: 1px solid var(--line); background: var(--warm-white); }
+.contactAddress address { font-style: normal; font-size: var(--type-body-large); line-height: var(--leading-body); }
+.contactDetails { margin: 1.75rem 0; border-top: 1px solid var(--line); }
+.contactDetails div { display: grid; grid-template-columns: minmax(5rem, .55fr) 1fr; gap: 1rem; padding: .9rem 0; border-bottom: 1px solid var(--line); }
+.contactDetails dt { font-size: var(--type-label); font-weight: 700; letter-spacing: var(--tracking-label); text-transform: uppercase; }
+.contactDetails dd { margin: 0; overflow-wrap: anywhere; }
+.contactDetails a { text-underline-offset: .25rem; }
+.contactPractical { margin: 0; font-size: var(--type-small); line-height: 1.55; color: color-mix(in srgb, var(--charcoal) 72%, transparent); }
+
+.header nav a { position: relative; padding-block: .35rem; }
+.header nav a::after { position: absolute; right: 0; bottom: 0; left: 0; height: 1px; background: currentColor; content: ""; transform: scaleX(0); transform-origin: left; transition: transform .2s ease; }
+.header nav a:hover::after, .header nav a.is-active::after { transform: scaleX(1); }
+.header nav a.is-active { font-weight: 700; }
+
+@media (max-width: 760px) {
+  .pageHero { min-height: 22rem; }
+  .hero h1 { max-width: 14ch; }
+  .pageHero h1 { max-width: 20ch; }
+  .contactPage { grid-template-columns: 1fr; }
+  .contactAddress { padding: 1.5rem; }
+  .section { padding-block: 4rem; }
+  .roomEditorialList { gap: 3.25rem; }
+  .mobileMenu nav a:not(.button) { font-size: clamp(1.7rem, 8vw, 2.25rem); }
+}

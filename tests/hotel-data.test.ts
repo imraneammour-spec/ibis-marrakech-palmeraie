@@ -2,6 +2,7 @@ import { describe, expect, it } from "vitest";
 import { getRoomBySlug, rooms } from "@/data/rooms";
 import { location } from "@/data/location";
 import { hotel } from "@/data/hotel";
+import { hotelSchema } from "@/lib/schema";
 
 describe("hotel content data", () => {
   it("exposes only the four verified room categories as routable content", () => {
@@ -15,9 +16,17 @@ describe("hotel content data", () => {
   });
 
   it("uses only the verified official booking, contact and map details", () => {
-    expect(hotel.bookingUrl).toBe("https://all.accor.com/hotel/6290/index.en.shtml");
+    expect(hotel.bookingUrl).toBe("/contact#contact-form");
     expect(hotel.phone).toBe("+212 5243-34020");
     expect(hotel.email).toBe("H6290@accor.com");
     expect(location.coordinates).toEqual({ latitude: 31.678073, longitude: -7.999206 });
+  });
+
+  it("emits factual Hotel structured data without invented ratings or prices", () => {
+    expect(hotelSchema["@type"]).toBe("Hotel");
+    expect(hotelSchema.name).toBe("ibis Marrakech Palmeraie");
+    expect(hotelSchema.address.streetAddress).toBe("Avenue Abdelkrim Khattabi, Route de Casablanca");
+    expect(hotelSchema).not.toHaveProperty("aggregateRating");
+    expect(hotelSchema).not.toHaveProperty("priceRange");
   });
 });

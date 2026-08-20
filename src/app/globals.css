@@ -1,6 +1,8 @@
 @import "../styles/tokens.css";
 @import "../styles/rooms.css";
 @import "../styles/home-polish.css";
+@import "../styles/refinement.css";
+@import "../styles/typography.css";
 
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; }

@@ -1,0 +1,63 @@
+/* Final UI/UX Pro Max composition layer: compact, consistent and image-led. */
+.bookingPage { display:grid; grid-template-columns:minmax(0,.7fr) minmax(22rem,1fr); gap:clamp(2rem,6vw,5rem); align-items:start; }
+.bookingPageIntro { padding-top:1.5rem; }
+.bookingRequestCard, .contactForm { border:1px solid var(--line); background:var(--warm-white); padding:clamp(1.5rem,3vw,2.5rem); box-shadow:0 12px 30px #38271b12; }
+.bookingRequestCard h3 { font:400 var(--type-h3)/var(--leading-heading) var(--display); margin:.5rem 0 .75rem; }
+.bookingRequestForm, .contactForm { display:grid; gap:1rem; margin-top:1.5rem; }
+.bookingRequestGrid, .contactFormGrid { display:grid; grid-template-columns:repeat(2,1fr); gap:1rem; }
+.bookingRequestForm label, .contactForm label { display:grid; gap:.45rem; font-size:var(--type-label); font-weight:700; letter-spacing:var(--tracking-label); text-transform:uppercase; }
+.bookingRequestForm label span, .contactForm label span { color:#6d685f; font-weight:500; letter-spacing:0; text-transform:none; }
+.bookingRequestForm input, .bookingRequestForm select, .bookingRequestForm textarea, .contactForm input, .contactForm textarea { width:100%; min-height:2.8rem; border:1px solid var(--line); border-radius:2px; background:var(--ivory); color:var(--charcoal); padding:.7rem .8rem; font-size:var(--type-body); }
+.bookingRequestForm textarea, .contactForm textarea { min-height:7rem; resize:vertical; }
+.formNotice { margin:0; padding:.8rem 1rem; border-left:3px solid var(--terracotta); background:color-mix(in srgb,var(--terracotta) 8%,var(--warm-white)); font-size:var(--type-small); line-height:1.55; }
+.contactForm { margin-top:2rem; box-shadow:none; }
+.reserve { min-height:0; display:grid; justify-items:center; align-content:center; gap:.75rem; padding-block:4rem; text-align:center; }
+.reserve .eyebrow, .reserve h2, .reserve .button { margin-inline:auto; }
+.reserve h2 { font-size:clamp(2.35rem,4vw,3.7rem); }
+.reviews.section, .amenities.section { text-align:center; }
+.reviews.section .reviewGrid { text-align:left; }
+.amenities h2, .reviews h2 { margin-inline:auto; }
+/* Header CTA and home amenities: intentionally scoped final alignment pass. */
+@media (min-width:761px) {
+  .header > nav { margin-left:auto; }
+  .headerBook { flex:0 0 auto; margin-left:clamp(1.5rem,3vw,3.25rem); white-space:nowrap; }
+}
+@media (min-width:761px) and (max-width:1000px) {
+  .header nav { gap:.85rem; }
+  .headerBook { margin-left:1.25rem; }
+}
+.amenities.section { padding-block:clamp(4.25rem,5.5vw,5.75rem); }
+.amenities h2 { max-width:17ch; margin-bottom:0; }
+.amenityGrid { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); margin-top:clamp(2.25rem,4vw,3.25rem); border-block:1px solid var(--line); }
+.amenityGrid div { display:grid; grid-template-rows:1.375rem auto; align-content:center; justify-items:center; min-height:8.5rem; gap:.85rem; padding:1.5rem 1rem; font-size:var(--type-small); font-weight:650; line-height:1.4; text-align:center; }
+.amenityGrid div:not(:last-child) { border-right:1px solid var(--line); }
+.amenityGrid svg { width:1.375rem; height:1.375rem; color:var(--terracotta); stroke-width:1.6; }
+.amenityGrid span { max-width:15ch; }
+@media (min-width:481px) and (max-width:1000px) {
+  .amenityGrid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .amenityGrid div { min-height:7.75rem; }
+  .amenityGrid div:not(:last-child) { border-right:0; }
+  .amenityGrid div:nth-child(odd) { border-right:1px solid var(--line); }
+  .amenityGrid div:nth-child(n+3) { border-top:1px solid var(--line); }
+  .amenityGrid div:last-child { grid-column:1/-1; border-right:0; }
+}
+@media (max-width:480px) {
+  .amenityGrid { grid-template-columns:1fr; }
+  .amenityGrid div { min-height:6.5rem; grid-template-columns:1.375rem minmax(0,1fr); grid-template-rows:none; justify-items:start; align-items:center; gap:1rem; padding-inline:1.25rem; text-align:left; }
+  .amenityGrid div:not(:last-child) { border-right:0; }
+  .amenityGrid div + div { border-top:1px solid var(--line); }
+  .amenityGrid span { max-width:none; }
+}
+.contactPage { grid-template-columns:minmax(0,.9fr) minmax(22rem,1.1fr); align-items:start; }
+.contactPage .contactFormColumn .contactForm { margin-top:0; }
+.reviews.section { padding-block:clamp(3.5rem,5vw,4.5rem); }
+.reviews.section > .eyebrow { margin-bottom:.65rem; }
+.reviews.section h2 { max-width:17ch; margin:0 auto; font-size:clamp(2.25rem,3.6vw,3.5rem); line-height:.98; text-wrap:balance; }
+.reviews.section .reviewGrid { max-width:54rem; grid-template-columns:minmax(10rem,.55fr) minmax(0,1fr); gap:clamp(1.5rem,3vw,3rem); margin:clamp(1.75rem,3vw,2.5rem) auto 0; padding-top:1.25rem; }
+.reviews.section .reviewNote { max-width:48rem; margin:1rem auto 0; }
+@media (max-width:760px) {
+  .reviews.section { padding-block:3.5rem 4rem; }
+  .reviews.section h2 { max-width:15ch; font-size:clamp(2.1rem,9vw,2.75rem); line-height:1; }
+  .reviews.section .reviewGrid { grid-template-columns:1fr; gap:1rem; margin-top:1.5rem; padding-top:1rem; }
+}
+@media(max-width:760px){.bookingPage,.bookingRequestGrid,.contactFormGrid{grid-template-columns:1fr}.bookingPageIntro{padding-top:0}.bookingRequestCard,.contactForm{padding:1.35rem}.reserve{padding-block:3.5rem}}

@@ -1,1 +1,8 @@
-import { SiteHeader } from "@/components/SiteHeader"; import { SiteFooter } from "@/components/SiteFooter"; export default function GalleryPage(){return <><div className="pageHero"><SiteHeader/><div><p className="eyebrow">Visual notes</p><h1>Light, colour, <em>calm.</em></h1></div></div><main className="section"><p className="lead">Official, reusable hotel photography can be added here when it is provided or licensed. The visual placeholders intentionally do not claim to depict the hotel.</p><div className="galleryPlaceholders">{[1,2,3,4,5,6].map(n=><div key={n}>Marrakech light · {String(n).padStart(2,"0")}</div>)}</div></main><SiteFooter/></>}
+import { GalleryGrid } from "@/components/GalleryGrid";
+import { PageHero } from "@/components/PageHero";
+import { SiteFooter } from "@/components/SiteFooter";
+import { pageMetadata } from "@/lib/metadata";
+
+export const metadata = pageMetadata("Gallery", "A future-ready gallery framework for ibis Marrakech Palmeraie.", "/gallery");
+
+export default function GalleryPage() { return <><PageHero eyebrow="Visual notes" title={<>Light, colour, <em>calm.</em></>} /><main className="section galleryPage"><div className="galleryIntro"><p className="eyebrow">Gallery</p><h2>Moments around the <em>hotel.</em></h2><p className="lead">Explore the spaces and atmosphere of ibis Marrakech Palmeraie.</p></div><GalleryGrid /></main><SiteFooter /></>; }
