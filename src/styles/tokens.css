@@ -1,0 +1,12 @@
+:root {
+  --ivory: #f4efe7;
+  --warm-white: #faf8f4;
+  --beige: #d8c4a8;
+  --terracotta: #a85d3d;
+  --olive: #414438;
+  --charcoal: #1b1b19;
+  --line: color-mix(in srgb, var(--charcoal) 14%, transparent);
+  --page-padding: clamp(1.25rem, 4vw, 5rem);
+  --content-width: 82rem;
+  --display: var(--font-serif), Georgia, serif;
+}

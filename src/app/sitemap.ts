@@ -1,0 +1,1 @@
+import type { MetadataRoute } from "next"; import { rooms } from "@/data/rooms"; const base="https://TODO_REAL_DOMAIN"; export default function sitemap():MetadataRoute.Sitemap{return ["","/hotel","/rooms","/gallery","/location","/contact",...rooms.map(r=>`/rooms/${r.slug}`)].map(url=>({url:`${base}${url}`,lastModified:new Date()}));}

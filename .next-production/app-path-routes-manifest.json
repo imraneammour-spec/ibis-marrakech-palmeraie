@@ -1,0 +1,12 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/robots.txt/route": "/robots.txt",
+  "/contact/page": "/contact",
+  "/gallery/page": "/gallery",
+  "/hotel/page": "/hotel",
+  "/location/page": "/location",
+  "/page": "/",
+  "/rooms/[slug]/page": "/rooms/[slug]",
+  "/rooms/page": "/rooms"
+}

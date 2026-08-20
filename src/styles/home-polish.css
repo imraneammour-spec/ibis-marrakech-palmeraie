@@ -1,0 +1,83 @@
+/* Focused homepage rhythm refinements. */
+.intro.section { padding: 7rem var(--page-padding) 5.5rem; }
+.rooms.section { padding-block: 7rem; }
+
+.amenities.section { padding: 4.75rem var(--page-padding) 3.75rem; }
+.reviews.section { padding: 4rem var(--page-padding) 4.75rem; }
+
+.amenities h2 { margin-bottom: 0; }
+.amenityGrid { margin-top: 2rem; }
+
+.reviews.section h2 {
+  font-size: clamp(3.2rem, 6.1vw, 6.3rem);
+  max-width: 12ch;
+  margin-bottom: 1rem;
+}
+
+.intro h2,
+.rooms h2,
+.amenities h2,
+.location h2 { font-size: clamp(2.8rem, 5.25vw, 5.3rem); }
+
+.reviewGrid {
+  grid-template-columns: minmax(12rem, .75fr) minmax(0, 1.15fr);
+  gap: clamp(2rem, 5vw, 5rem);
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  align-items: start;
+}
+
+.reviewGrid strong { font-size: clamp(3.8rem, 6vw, 6rem); }
+.reviewGrid p { margin: 0 0 1rem; }
+.reviewNote { max-width: 56rem; margin-top: 1.25rem; }
+
+.location.section {
+  grid-template-columns: minmax(18rem, .9fr) minmax(0, 1.1fr);
+  gap: clamp(2rem, 4vw, 4rem);
+  padding-block: 5rem;
+}
+
+.location .hotelMap {
+  display: block;
+  width: 100%;
+  min-height: clamp(34rem, 42vw, 42rem);
+  border: 1px solid var(--line);
+}
+
+.reserve { padding-block: 7rem; }
+.footer { padding-block: 3.5rem; }
+
+@media (min-width: 761px) and (max-width: 1000px) {
+  .location.section { gap: 2.5rem; }
+  .location .hotelMap { min-height: 32rem; }
+  .reviews.section { padding: 3.75rem var(--page-padding) 4.5rem; }
+}
+
+@media (max-width: 760px) {
+  .intro.section { padding: 4.5rem var(--page-padding) 3.75rem; }
+  .rooms.section,
+  .location.section { padding-block: 4.5rem; }
+  .amenities.section { padding: 4.25rem var(--page-padding) 3.25rem; }
+  .reviews.section { padding: 3.5rem var(--page-padding) 4.5rem; }
+
+  .reviews.section h2 {
+    font-size: clamp(2.7rem, 10.5vw, 3.7rem);
+    max-width: none;
+  }
+
+  .reviewGrid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .location.section {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+
+  .location .hotelMap {
+    width: 100%;
+    min-height: 26rem;
+  }
+  .reserve { padding-block: 5.5rem; }
+}

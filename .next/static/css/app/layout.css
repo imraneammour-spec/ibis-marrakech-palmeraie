@@ -1,0 +1,193 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[14].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src\\app\\layout.tsx","import":"DM_Sans","arguments":[{"subsets":["latin"],"variable":"--font-sans","display":"swap"}],"variableName":"sans"} ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* latin-ext */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 100 1000;
+  font-display: swap;
+  src: url(/_next/static/media/7ab938503e4547a1-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 100 1000;
+  font-display: swap;
+  src: url(/_next/static/media/13971731025ec697-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: 'DM Sans Fallback';src: local("Arial");ascent-override: 94.90%;descent-override: 29.66%;line-gap-override: 0.00%;size-adjust: 104.53%
+}.__className_0d7163 {font-family: 'DM Sans', 'DM Sans Fallback';font-style: normal
+}.__variable_0d7163 {--font-sans: 'DM Sans', 'DM Sans Fallback'
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[14].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src\\app\\layout.tsx","import":"Playfair_Display","arguments":[{"subsets":["latin"],"variable":"--font-serif","display":"swap"}],"variableName":"serif"} ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* cyrillic */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url(/_next/static/media/47f136985ef5b5cb-s.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url(/_next/static/media/4ead58c4dcc3f285-s.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url(/_next/static/media/28a2004cf8372660-s.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: swap;
+  src: url(/_next/static/media/eaead17c7dbfcd5d-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: 'Playfair Display Fallback';src: local("Times New Roman");ascent-override: 97.25%;descent-override: 22.56%;line-gap-override: 0.00%;size-adjust: 111.26%
+}.__className_0a80b4 {font-family: 'Playfair Display', 'Playfair Display Fallback';font-style: normal
+}.__variable_0a80b4 {--font-serif: 'Playfair Display', 'Playfair Display Fallback'
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./src/styles/tokens.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+:root {
+  --ivory: #f4efe7;
+  --warm-white: #faf8f4;
+  --beige: #d8c4a8;
+  --terracotta: #a85d3d;
+  --olive: #414438;
+  --charcoal: #1b1b19;
+  --line: color-mix(in srgb, var(--charcoal) 14%, transparent);
+  --page-padding: clamp(1.25rem, 4vw, 5rem);
+  --content-width: 82rem;
+  --display: var(--font-serif), Georgia, serif;
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./src/styles/rooms.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+.roomsHero + .booking{margin-bottom:0}.roomsIntro{display:grid;grid-template-columns:1fr .8fr;grid-gap:5rem;gap:5rem;align-items:start}.roomsIntro h2,.roomCollection h2,.essentials h2,.comparison h2,.help h2{font-size:clamp(2.8rem,5vw,5rem)}.roomsIntro>p{padding-top:1.5rem;font-size:1.05rem;line-height:1.75}.collectionNote{max-width:16rem;font-size:.82rem;line-height:1.5}.roomEditorialList{display:grid;grid-gap:7rem;gap:7rem}.roomEditorial{display:grid;grid-template-columns:1.1fr .9fr;grid-gap:clamp(2rem,6vw,7rem);gap:clamp(2rem,6vw,7rem);align-items:center}.roomEditorial:nth-child(even) .roomVisual{order:2}.roomVisual--large{aspect-ratio:1.15;display:flex;flex-direction:column;justify-content:space-between;padding:1.25rem}.roomVisual--large small{position:relative;z-index:1;align-self:flex-end;color:#fff;font-size:.65rem;letter-spacing:.1em;text-transform:uppercase}.roomEditorialCopy h3{font:400 clamp(2.2rem,4vw,4.2rem)/.95 var(--display);letter-spacing:-.05em;margin:.5rem 0 1.25rem}.roomEditorialCopy>p:not(.eyebrow){line-height:1.7}.roomEditorialCopy ul{padding:1.3rem 0 0;margin:1.4rem 0;border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1fr;grid-gap:.55rem;gap:.55rem;list-style:none;font-size:.82rem}.roomEditorialCopy li:before{content:"•";color:var(--terracotta);padding-right:.4rem}.roomActions{display:flex;gap:1.25rem;align-items:center;margin-top:1.5rem}.essentials{background:var(--warm-white)}.essentialsGrid{display:grid;grid-template-columns:repeat(5,1fr);margin-top:3rem;border-top:1px solid var(--line)}.essentialsGrid div{display:grid;grid-gap:1rem;gap:1rem;padding:1.5rem 1rem 1.5rem 0;font-weight:600;font-size:.85rem}.comparisonTable{margin-top:3rem;border-top:1px solid var(--line)}.comparisonRow{display:grid;grid-template-columns:1.7fr repeat(4,1fr);grid-gap:1rem;gap:1rem;padding:1rem 0;border-bottom:1px solid var(--line);font-size:.78rem;line-height:1.4}.comparisonRow strong{font-size:.86rem}.comparisonHead{font-weight:700;color:#666;text-transform:uppercase;letter-spacing:.08em;font-size:.63rem}.roomsExperience{display:grid;grid-template-columns:1fr 1fr;background:var(--olive);color:var(--warm-white)}.experiencePlaceholder{min-height:31rem;padding:3rem;display:flex;flex-direction:column;justify-content:space-between;background:linear-gradient(135deg,#ae6a48,#404839)}.experiencePlaceholder p{font:400 clamp(3rem,6vw,6rem)/.85 var(--display);margin:0}.experiencePlaceholder small{font-size:.65rem;letter-spacing:.1em;text-transform:uppercase}.roomsExperience>div:last-child{padding:clamp(3rem,7vw,7rem);align-self:center}.roomsExperience h2{font:400 clamp(2.8rem,5vw,5rem)/.95 var(--display);letter-spacing:-.05em}.roomsExperience>div:last-child>p:not(.eyebrow){line-height:1.7}.experienceAmenities{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:2rem}.experienceAmenities span{display:flex;align-items:center;gap:.4rem;border-bottom:1px solid #ffffff55;padding-bottom:.35rem;font-size:.78rem}.roomsReserve{text-align:center;padding:8rem var(--page-padding);background:linear-gradient(120deg,#282c25,#81472f);color:var(--warm-white)}.roomsReserve h2{font:400 clamp(4rem,9vw,8rem)/.85 var(--display);letter-spacing:-.07em;margin:1rem 0 2rem}.help{display:grid;grid-template-columns:1fr .8fr;grid-gap:5rem;gap:5rem}.help>div:last-child{padding-top:1rem;line-height:1.7}.help .textLink{display:table;margin-top:1rem}@media(max-width:760px){.roomsIntro,.roomEditorial,.roomsExperience,.help{grid-template-columns:1fr;gap:2rem}.roomEditorial:nth-child(even) .roomVisual{order:0}.roomEditorialList{gap:4rem}.roomEditorialCopy ul{grid-template-columns:1fr}.roomActions{align-items:flex-start;flex-direction:column}.essentialsGrid{grid-template-columns:1fr 1fr}.comparisonTable{overflow-x:auto}.comparisonRow{min-width:43rem}.roomsExperience>div:last-child{padding:3rem var(--page-padding) 4rem}.experiencePlaceholder{min-height:22rem}.collectionNote{margin-top:1rem}.roomsIntro>p{padding-top:0}}
+
+/*!************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./src/styles/home-polish.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************/
+/* Focused homepage rhythm refinements. */
+.intro.section { padding: 7rem var(--page-padding) 5.5rem; }
+.rooms.section { padding-block: 7rem; }
+
+.amenities.section { padding: 4.75rem var(--page-padding) 3.75rem; }
+.reviews.section { padding: 4rem var(--page-padding) 4.75rem; }
+
+.amenities h2 { margin-bottom: 0; }
+.amenityGrid { margin-top: 2rem; }
+
+.reviews.section h2 {
+  font-size: clamp(3.2rem, 6.1vw, 6.3rem);
+  max-width: 12ch;
+  margin-bottom: 1rem;
+}
+
+.intro h2,
+.rooms h2,
+.amenities h2,
+.location h2 { font-size: clamp(2.8rem, 5.25vw, 5.3rem); }
+
+.reviewGrid {
+  grid-template-columns: minmax(12rem, .75fr) minmax(0, 1.15fr);
+  gap: clamp(2rem, 5vw, 5rem);
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  align-items: start;
+}
+
+.reviewGrid strong { font-size: clamp(3.8rem, 6vw, 6rem); }
+.reviewGrid p { margin: 0 0 1rem; }
+.reviewNote { max-width: 56rem; margin-top: 1.25rem; }
+
+.location.section {
+  grid-template-columns: minmax(18rem, .9fr) minmax(0, 1.1fr);
+  gap: clamp(2rem, 4vw, 4rem);
+  padding-block: 5rem;
+}
+
+.location .hotelMap {
+  display: block;
+  width: 100%;
+  min-height: clamp(34rem, 42vw, 42rem);
+  border: 1px solid var(--line);
+}
+
+.reserve { padding-block: 7rem; }
+.footer { padding-block: 3.5rem; }
+
+@media (min-width: 761px) and (max-width: 1000px) {
+  .location.section { gap: 2.5rem; }
+  .location .hotelMap { min-height: 32rem; }
+  .reviews.section { padding: 3.75rem var(--page-padding) 4.5rem; }
+}
+
+@media (max-width: 760px) {
+  .intro.section { padding: 4.5rem var(--page-padding) 3.75rem; }
+  .rooms.section,
+  .location.section { padding-block: 4.5rem; }
+  .amenities.section { padding: 4.25rem var(--page-padding) 3.25rem; }
+  .reviews.section { padding: 3.5rem var(--page-padding) 4.5rem; }
+
+  .reviews.section h2 {
+    font-size: clamp(2.7rem, 10.5vw, 3.7rem);
+    max-width: none;
+  }
+
+  .reviewGrid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .location.section {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+
+  .location .hotelMap {
+    width: 100%;
+    min-height: 26rem;
+  }
+  .reserve { padding-block: 5.5rem; }
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[10].use[3]!./src/app/globals.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--ivory); color: var(--charcoal); font-family: var(--font-sans), Arial, sans-serif; }
+a { color: inherit; }
+button, input, select { font: inherit; }
+:focus-visible { outline: 2px solid var(--terracotta); outline-offset: 4px; }
+.skip-link { position: fixed; z-index: 100; top: 1rem; left: 1rem; transform: translateY(-200%); background: var(--charcoal); color: var(--warm-white); padding: .75rem 1rem; text-decoration: none; }
+.skip-link:focus { transform: translateY(0); }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; scroll-behavior: auto !important; } }
+
+.header{position:absolute;inset:0 0 auto;z-index:2;display:flex;align-items:center;justify-content:space-between;padding:1.5rem var(--page-padding);color:var(--warm-white)}.brand{font:600 .78rem/1 var(--font-sans);letter-spacing:.1em;text-transform:uppercase;text-decoration:none}.brand span{font:700 1.35rem/1 var(--font-serif);letter-spacing:-.05em;text-transform:none}.header nav{display:flex;gap:1.45rem;font-size:.73rem;letter-spacing:.08em;text-transform:uppercase}.header nav a{text-decoration:none}.button{display:inline-flex;gap:.5rem;align-items:center;justify-content:center;border:1px solid var(--terracotta);background:var(--terracotta);color:#fff;padding:.9rem 1.15rem;font:600 .7rem/1 var(--font-sans);letter-spacing:.1em;text-transform:uppercase;text-decoration:none;cursor:pointer}.button:hover{background:#904a2f}.button--small{padding:.7rem .9rem}.button--dark{background:var(--charcoal);border-color:var(--charcoal)}.eyebrow{font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:var(--terracotta);font-weight:700}.hero{min-height:46rem;color:var(--warm-white);background:linear-gradient(110deg,rgba(20,18,15,.76),rgba(20,18,15,.18)),radial-gradient(circle at 80% 26%,#bd7954 0 9%,transparent 28%),linear-gradient(145deg,#59604b,#ab6946 54%,#312c20)}.heroCopy{max-width:50rem;padding:clamp(12rem,22vh,17rem) var(--page-padding) 5rem}.hero h1,.section h2,.experience h2,.reserve h2,.footer h2{font:400 clamp(3.8rem,9vw,8.8rem)/.86 var(--display);letter-spacing:-.07em;margin:.45rem 0 1.5rem}.hero h1 em,h2 em{font-weight:400}.heroCopy>p:not(.eyebrow){max-width:26rem;font-size:1.07rem;line-height:1.6}.heroActions{display:flex;align-items:center;gap:1.5rem;margin-top:2.3rem}.textLink{display:inline-flex;align-items:center;gap:.4rem;font-weight:700;font-size:.74rem;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:.35rem}.textLink svg{width:1rem}.heroCaption{position:absolute;right:var(--page-padding);bottom:1.8rem;font:italic 1.1rem var(--display);max-width:10rem}.booking{position:relative;z-index:3;max-width:calc(var(--content-width) + 2rem);margin:-2.7rem auto 0;background:var(--warm-white);box-shadow:0 18px 45px #38271b24;display:grid;grid-template-columns:repeat(4,1fr) auto;grid-gap:0;gap:0;padding:1.2rem}.booking label{border-right:1px solid var(--line);padding:.4rem 1rem;font-size:.63rem;text-transform:uppercase;letter-spacing:.1em;font-weight:700}.booking input,.booking select{display:block;width:100%;margin-top:.45rem;border:0;background:transparent;color:var(--charcoal);font-size:.85rem}.bookingNotice{grid-column:1/-1;margin:0;color:var(--terracotta);font-size:.8rem}.section{max-width:var(--content-width);margin:auto;padding:9rem var(--page-padding)}.intro{display:grid;grid-template-columns:1.05fr .75fr;grid-gap:6rem;gap:6rem}.intro h2,.rooms h2,.amenities h2,.location h2{font-size:clamp(3rem,6vw,5.8rem)}.intro>div:last-child{padding-top:3rem;font-size:1.08rem;line-height:1.7}.sectionTitle{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:3rem}.roomGrid{display:grid;grid-template-columns:1fr 1fr;grid-gap:4rem 1.5rem;gap:4rem 1.5rem}.roomCard{display:grid;grid-gap:1.4rem;gap:1.4rem}.roomVisual{aspect-ratio:1.2;background:linear-gradient(145deg,#4b5544,#9c5135 55%,#d9ad7f);position:relative;overflow:hidden}.roomCard--2 .roomVisual{background:linear-gradient(135deg,#b16e4a,#d4c19c,#59604b)}.roomCard--3 .roomVisual{background:linear-gradient(135deg,#3e463c,#937052,#c99467)}.roomCard--4 .roomVisual{background:linear-gradient(145deg,#afb19c,#9b5b3e,#3c463c)}.roomVisual:after{content:"";position:absolute;inset:16%;border:1px solid #fff8;transform:rotate(45deg)}.roomVisual span{position:absolute;z-index:1;left:1rem;top:1rem;font:italic 1.4rem var(--display);color:#fff}.roomCard h3{font:400 2rem/1 var(--display);margin:.4rem 0}.roomCard p:not(.eyebrow){font-size:.93rem;line-height:1.6;max-width:35rem}.experience{display:grid;grid-template-columns:1.05fr .95fr;background:var(--olive);color:var(--warm-white)}.experienceVisual{min-height:34rem;background:linear-gradient(145deg,#b36b4a,#493f2b 70%);padding:3rem;display:flex;align-items:flex-end}.experienceVisual p{font:400 clamp(3rem,6vw,6rem)/.85 var(--display);margin:0}.experienceCopy{padding:clamp(3rem,7vw,8rem);align-self:center}.experienceCopy h2{font-size:clamp(2.8rem,5vw,5rem)}.experienceCopy>p:not(.eyebrow){line-height:1.7}.muted{opacity:.65;font-size:.85rem}.amenityGrid{display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--line);margin-top:3rem}.amenityGrid div{display:grid;grid-gap:1.2rem;gap:1.2rem;padding:1.5rem 1rem 1.5rem 0;font-weight:600;font-size:.88rem}.location{display:grid;grid-template-columns:1fr 1fr;grid-gap:5rem;gap:5rem;align-items:center}.location>div:first-child p:not(.eyebrow){max-width:24rem;line-height:1.6;margin-bottom:2rem}.mapCard{min-height:27rem;padding:2rem;display:flex;flex-direction:column;justify-content:space-between;background:#c78a60;background-image:linear-gradient(45deg,#ffffff3d 1px,transparent 1px),linear-gradient(-45deg,#ffffff2e 1px,transparent 1px);background-size:2rem 2rem;color:var(--charcoal)}.mapCard span{font-size:.75rem;text-transform:uppercase;letter-spacing:.12em}.mapCard strong{font:400 clamp(3rem,7vw,5.5rem)/.85 var(--display)}.reserve{text-align:center;padding:9rem var(--page-padding);background:linear-gradient(120deg,#282c25,#81472f);color:var(--warm-white)}.reserve h2{font-size:clamp(4rem,10vw,9rem)}.footer{display:grid;grid-template-columns:2fr 1fr;grid-gap:3rem;gap:3rem;padding:4rem var(--page-padding);background:var(--charcoal);color:var(--warm-white)}.footer h2{font-size:2.2rem;letter-spacing:-.04em}.footer p{max-width:22rem;color:#ffffffa8;font-size:.9rem}.footerLinks{display:grid;align-content:start;grid-gap:.8rem;gap:.8rem;font-size:.8rem}.footer small{grid-column:1/-1;padding-top:3rem;color:#ffffff8a}
+@media(max-width:760px){.header nav{display:none}.header .button--small{display:none}.hero{min-height:42rem}.heroCaption{display:none}.booking{margin:0;grid-template-columns:1fr 1fr;padding:.5rem}.booking label{padding:1rem;border-bottom:1px solid var(--line)}.booking .button{grid-column:1/-1;margin:.5rem}.intro,.location,.experience{grid-template-columns:1fr;gap:1rem}.section{padding:5rem var(--page-padding)}.roomGrid{grid-template-columns:1fr;gap:3rem}.sectionTitle{display:block}.sectionTitle .textLink{margin-top:.5rem}.experienceVisual{min-height:23rem}.experienceCopy{padding:3rem var(--page-padding) 4rem}.amenityGrid{grid-template-columns:1fr 1fr}.footer{grid-template-columns:1fr}.footerLinks{grid-template-columns:1fr 1fr}.heroActions{align-items:flex-start;flex-direction:column}}
+.pageHero{min-height:28rem;position:relative;display:flex;align-items:flex-end;padding:4rem var(--page-padding);color:var(--warm-white);background:linear-gradient(120deg,#292d25aa,#8d4f34),linear-gradient(45deg,#59604b,#bd764d)}.pageHero>div{max-width:60rem}.pageHero h1{font:400 clamp(3.8rem,9vw,8rem)/.88 var(--display);letter-spacing:-.07em;margin:.5rem 0}.lead{font:400 clamp(1.6rem,3vw,2.6rem)/1.2 var(--display);max-width:42rem}.prose{max-width:58rem}.prose p:not(.lead){font-size:1.05rem;line-height:1.75;max-width:42rem}.roomDetail{max-width:var(--content-width)}.detailGrid{display:grid;grid-template-columns:1fr 1fr;border-block:1px solid var(--line);margin:3rem 0}.detailGrid>div{padding:1.5rem 0;line-height:1.8}.galleryPlaceholders{display:grid;grid-template-columns:repeat(3,1fr);grid-gap:1rem;gap:1rem;margin-top:3rem}.galleryPlaceholders div{min-height:16rem;background:linear-gradient(135deg,#46513f,#b86643,#ddbb91);padding:1rem;color:#fff;font:italic 1.2rem var(--display)}.galleryPlaceholders div:nth-child(2n){background:linear-gradient(135deg,#b8825d,#44503e)}.contact{display:grid;grid-template-columns:1fr 1fr;grid-gap:5rem;gap:5rem}.contact form{display:grid;grid-gap:1rem;gap:1rem}.contact label{display:grid;grid-gap:.5rem;gap:.5rem;font-weight:700;font-size:.75rem;text-transform:uppercase;letter-spacing:.09em}.contact input,.contact textarea{border:1px solid var(--line);padding:.8rem;background:var(--warm-white)}@media(max-width:760px){.galleryPlaceholders,.contact,.detailGrid{grid-template-columns:1fr}.pageHero{min-height:24rem}.detailGrid{gap:0}.detailGrid>div{border-bottom:1px solid var(--line)}}
+
